@@ -59,7 +59,8 @@ ideologies = {
 			
 			conservatism = {
 			}
-			
+			national_democracy = {
+			}
 		}
 		
 		dynamic_faction_names = {

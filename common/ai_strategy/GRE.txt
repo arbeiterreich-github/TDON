@@ -82,10 +82,7 @@ GRE_dont_wanna_befriend_france = {
 		original_tag = GRE
 	}
 	enable = {
-		has_country_leader = {
-			character = GRE_constantine_i
-			ruling_only = yes
-		}
+		
 	}
 	abort_when_not_enabled = yes
 	ai_strategy = {

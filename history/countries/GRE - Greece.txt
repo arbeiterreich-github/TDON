@@ -14,13 +14,12 @@ add_opinion_modifier = {
 
 recruit_character = GRE_stefanos_dragoumis
 recruit_character = GRE_eleftherios_venizelos
-recruit_character = GRE_george_i
+recruit_character = GRE_Leopoldos_I
 recruit_character = GRE_spiridon_lambros
 recruit_character = GRE_nikolaos_zorbas
 recruit_character = GRE_platon_drakoulis
 recruit_character = GRE_avraam_benaroya
 recruit_character = GRE_andreas_michalakopoulos
-recruit_character = GRE_constantine_i
 recruit_character = GRE_panagiotis_danglis
 recruit_character = GRE_konstantinos_sapountzakis
 recruit_character = GRE_nikolaos_stratos
@@ -47,7 +46,6 @@ recruit_character = GRE_nikolaos_yannios
 recruit_character = GRE_collective_leadership
 
 recruit_character = GRE_alexander
-recruit_character = GRE_george_ii
 recruit_character = GRE_konstantinos_nider
 recruit_character = GRE_nikolaos_votsis
 recruit_character = GRE_leonidas_paraskevopoulos
@@ -76,7 +74,6 @@ recruit_character = GRE_epameinondas_zymvrakakis
 
 
 
-1910.1.1 = {
 	oob = "GRE_1910"
 	set_rule = {
 		can_join_factions = no
@@ -170,7 +167,7 @@ recruit_character = GRE_epameinondas_zymvrakakis
     }
 
 	set_politics = {
-		ruling_party = neutrality
+		ruling_party = democratic
 		last_election = "1906.12.11" 
 		election_frequency = 44 
 		elections_allowed = yes
@@ -178,17 +175,14 @@ recruit_character = GRE_epameinondas_zymvrakakis
 	set_popularities = {
 		fascism = 2
 		communism = 3
-		democratic = 27
-		neutrality = 68
+		democratic = 68
+		neutrality = 27
 	}
 
 	add_ideas = {
 		limited_conscription
 		gre_the_megali_idea
-		gre_shadow_of_97
-		GRE_idea_george_i
-		gre_victors_of_the_macedonian_struggle
-		GRE_idea_george_i
+		GRE_Leopoldos_I
 	}
 	
 	
@@ -387,4 +381,4 @@ recruit_character = GRE_epameinondas_zymvrakakis
 		country_event = { id =  ww1_greece.26 days = 156 }
 	}
     country_event = { id = ww1_developer_note.5 days = 1}
-}
+

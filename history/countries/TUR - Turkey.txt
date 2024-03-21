@@ -214,7 +214,7 @@ if = {
         
 	}
 	set_politics = {
-		ruling_party = neutrality
+		ruling_party = conservative
 		last_election = "1908.12.17"
 		election_frequency = 48
 		elections_allowed = yes
@@ -223,7 +223,8 @@ if = {
 		democratic = 28
 		fascism = 12
 		communism = 6
-		neutrality = 54
+		neutrality = 20
+		conservative = 34
 	}
 	set_party_name = {
 		ideology = democratic

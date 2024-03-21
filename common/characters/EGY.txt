@@ -32,6 +32,17 @@ characters={
 			ideology=despotism
 		}
 	}
+	EGY_Fadhel_Abboud={
+		name="Fadhel Abboud"
+		portraits={
+			civilian={
+				large="gfx/leaders/EGY/EGY_Fadhel_Abboud.png"
+			}
+		}
+		country_leader={
+			ideology=national_democracy
+		}
+	}
 	EGY_saad_zahloul={
 		name="EGY_saad_zahloul"
 		portraits={
@@ -43,6 +54,17 @@ characters={
 			ideology=liberal_conservatism
 		}
 	}
+	EGY_mustafa_kamel={
+		name="Mustafa Kamel"
+		portraits={
+			civilian={
+				large="gfx/leaders/EGY/EGY_mustafa_kamel.png"
+			}
+		}
+		country_leader={
+			ideology=fascism_ideology
+		}
+	}
 	EGY_hosni_al_arabi={
 		name="EGY_hosni_al_arabi"
 		portraits={
@@ -52,6 +74,9 @@ characters={
 		}
 		country_leader={
 			ideology=marxism
+		}
+		country_leader={
+			ideology=socialist_subtype
 		}
 	}
 	EGY_archibald_murray={

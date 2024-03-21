@@ -6,6 +6,10 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideologies/conservatism.png"
 	}
 	spriteType = {
+		name = "GFX_ideology_national_democracy"
+		texturefile = "gfx/interface/ideologies/national_democracy.png"
+	}
+	spriteType = {
 		name = "GFX_ideology_classical_liberalism"
 		texturefile = "gfx/interface/ideologies/classical_liberalism.png"
 	}

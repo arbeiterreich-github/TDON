@@ -2478,8 +2478,12 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideas/GRE/idea_GRE_stefanos_dragoumis.png"
 	}
 	spriteType = {
-		name = "GFX_idea_GRE_george_i"
-		texturefile = "gfx/interface/ideas/GRE/idea_GRE_george_i.png"
+		name = "GFX_idea_GRE_Leopoldos_I"
+		texturefile = "gfx/interface/ideas/GRE/GRE_Leopoldos_I.png"
+	}
+	spriteType = {
+		name = "GFX_idea_EGY_abbas_ii"
+		texturefile = "gfx/interface/ideas/egy/EGY_abbas_ii.png"
 	}
 	spriteType = {
 		name = "GFX_idea_GRE_constantine"

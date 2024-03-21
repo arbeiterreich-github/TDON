@@ -68,73 +68,16 @@ characters={
 			}
 		}
 	}
-	GRE_george_i={
-		name="GRE_george_i"
+	GRE_Leopoldos_I={
+		name="GRE_Leopoldos_I"
 		portraits={
 			civilian={
-				large="gfx/leaders/GRE/GRE_george_i.png"
-				#small="GFX_idea_GRE_george_i"
+				large="gfx/leaders/GRE/GRE_Leopoldos_I.png"
+				#small="GFX_idea_GRE_Leopoldos_I"
 			}
 		}
 	}
-	GRE_constantine_i={
-		name="GRE_constantine_of_the_hellenes"
-		portraits={
-			army={
-			    large="gfx/leaders/GRE/GRE_constantine_i_general.png"  
-			    small="gfx/interface/ideas/GRE/idea_GRE_constantine_i_general.png"
-			}	
-			civilian={			
-				large="gfx/leaders/GRE/GRE_constantine_i.png"
-			}
-		}
-		country_leader={
-			desc="GRE_constantine_i_desc"
-			ideology=semi_constitutional_monarchy
-			traits = { gre_divisive_autocrat germanophile }
-		}
-		field_marshal={
-			traits={ media_personality politically_connected trait_royal offensive_doctrine }
-			skill=3
-			attack_skill=3
-			defense_skill=2
-			planning_skill=2
-			logistics_skill=2
-			#legacy_id=35002
-			visible = {
-				if = {
-					limit = {
-						has_global_flag = GRE_national_schism_flag
-					}
-					GRE_has_royalist_government = yes
-				}
-				NOT = { has_government = communism }
-			}
-		}
-		advisor={
-			slot = army_chief
-			idea_token = GRE_constantine_i_army_chief
-			allowed  = {
-				original_tag  = GRE
-			}
-			traits  = {
-				army_chief_offensive_2
-			}
-			cost = 100
-			visible = {
-				if = {
-					limit = {
-						has_global_flag = GRE_national_schism_flag
-					}
-					GRE_has_royalist_government = yes
-				}
-				NOT = { has_government = communism }
-			}
-			ai_will_do  = {
-				factor  = 1
-			}
-		}
-	}
+	
 	GRE_platon_drakoulis={
 		name=GRE_platon_drakoulis
 		portraits={
@@ -293,28 +236,6 @@ characters={
 					GRE_has_venizelist_government = yes
 				}
 			}			
-		}
-	}
-	GRE_alexander={
-		name="GRE_alexander"
-		portraits={
-			civilian={
-				large="gfx/leaders/GRE/GRE_alexandros_i.png"
-			}
-		}
-		country_leader={
-			ideology=semi_constitutional_monarchy
-		}
-	}
-	GRE_george_ii={
-		name="GRE_crown_prince_george"
-		portraits={
-			civilian={
-				large="gfx/leaders/GRE/GRE_george_ii.png"
-			}
-		}
-		country_leader={
-			ideology=semi_constitutional_monarchy
 		}
 	}
 	GRE_panagiotis_danglis={

@@ -7,15 +7,12 @@ set_convoys = 20
 recruit_character = EGY_abbas_ii_helmy
 recruit_character = EGY_saad_zahloul
 recruit_character = EGY_hosni_al_arabi
-
+recruit_character = EGY_Fadhel_Abboud
 recruit_character = EGY_hussein_kamel
 recruit_character = EGY_fuad_i_muhammad_ali
-
-recruit_character = EGY_archibald_murray
-recruit_character = EGY_arthur_lyndenbell
+recruit_character = EGY_mustafa_kamel
 # recruit_character = EGY_ahmed_fuad
 
-1910.1.1 = {
 	set_research_slots = 3
 	set_technology = {
 		#infantry
@@ -30,7 +27,7 @@ recruit_character = EGY_arthur_lyndenbell
         
 	}
 	set_politics = {
-		ruling_party = neutrality
+		ruling_party = conservative
 		last_election = "1910.1.1"
 		election_frequency = 48
 		elections_allowed = yes
@@ -40,10 +37,12 @@ recruit_character = EGY_arthur_lyndenbell
 		communism = 0
 		socialist = 10
 		democratic = 14
-		conservative = 15
-		neutrality = 49
+		conservative = 40
+		neutrality = 24
 	}
 	country_lock_all_division_template = yes
+add_ideas = {
+	EGY_idea_abbas_ii
 }
 set_autonomy = {
 	target = HJZ

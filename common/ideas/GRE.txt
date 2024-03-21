@@ -458,7 +458,7 @@ ideas = {
 			available = {
 				is_in_faction = no
 				has_character = GRE_eleftherios_venizelos
-				has_character = GRE_constantine_i
+				
 			}
 			picture = GRE_goudi
 			modifier = {
@@ -1137,9 +1137,9 @@ ideas = {
 				supply_factor = 0.15
 			}
 		}
-		GRE_idea_george_i = {
-			name = GRE_george_i
-			picture = GRE_george_i
+		GRE_Leopoldos_I = {
+			name = GRE_Leopoldos_I
+			picture = GRE_Leopoldos_I
 			allowed = {
 				OR = {
 					original_tag = GRE
@@ -1154,32 +1154,23 @@ ideas = {
 					limit = {
 						original_tag = GRE
 					}
-					has_character = GRE_george_i
+					has_character = GRE_Leopoldos_I
 					else = {
 						is_subject_of = GRE
 						GRE = {
-							has_character = GRE_george_i
+							has_character = GRE_Leopoldos_I
 						}
 					}
 				}
 				NOT = {
 					has_country_leader = {
-						character = GRE_george_i
-					}
-					has_country_leader = {
-						character = GRE_constantine_i
-					}
-					has_country_leader = {
-						character = GRE_alexander
-					}
-					has_country_leader = {
-						character = GRE_george_ii
+						character = GRE_Leopoldos_I
 					}
 					has_idea = GRE_idea_constantine
 					has_idea = GRE_idea_constantine_byz
 					has_idea = GRE_idea_alexander
-					has_idea =  GRE_idea_george_ii
-					#has_idea = GRE_george_ii_restrained
+					has_idea =  GRE_idea_Leonidas_IIIi
+					#has_idea = GRE_Leopoldos_Ii_restrained
 					has_cosmetic_tag = GRE_republic
 				}
 				OR = {
@@ -1195,9 +1186,9 @@ ideas = {
 				neutrality_drift = 0.01
 			}
 		}
-		GRE_idea_george_i_stronger = {
-			name = GRE_george_i
-			picture = GRE_george_i
+		GRE_idea_Leonidas_III_stronger = {
+			name = GRE_Leopoldos_I
+			picture = GRE_Leopoldos_I
 			allowed = {
 				original_tag = GRE
 			}
@@ -1209,36 +1200,24 @@ ideas = {
 					limit = {
 						original_tag = GRE
 					}
-					has_character = GRE_george_i
+					has_character = GRE_Leopoldos_I
 					else = {
 						is_subject_of = GRE
 						GRE = {
-							has_character = GRE_george_i
+							has_character = GRE_Leopoldos_I
 						}
 					}
 				}
 				NOT = {
 					has_country_leader = {
-						character = GRE_george_i
-						ruling_only = yes
-					}
-					has_country_leader = {
-						character = GRE_constantine_i
-						ruling_only = yes
-					}
-					has_country_leader = {
-						character = GRE_alexander
-						ruling_only = yes
-					}
-					has_country_leader = {
-						character = GRE_george_ii
+						character = GRE_Leopoldos_I
 						ruling_only = yes
 					}
 					has_idea = GRE_idea_constantine
 					has_idea = GRE_idea_constantine_byz
 					has_idea = GRE_idea_alexander
-					has_idea =  GRE_idea_george_ii
-					#has_idea = GRE_george_ii_restrained
+					has_idea =  GRE_idea_Leonidas_IIIi
+					#has_idea = GRE_Leopoldos_Ii_restrained
 					has_cosmetic_tag = GRE_republic
 				}
 				OR = {
@@ -1254,9 +1233,9 @@ ideas = {
 				neutrality_drift = 0.03
 			}
 		}
-		GRE_idea_george_i_stronger2 = {
-			name = GRE_george_i
-			picture = GRE_george_i
+		GRE_idea_Leonidas_III_stronger2 = {
+			name = GRE_Leopoldos_I
+			picture = GRE_Leopoldos_I
 			allowed = {
 				original_tag = GRE
 			}
@@ -1268,36 +1247,20 @@ ideas = {
 					limit = {
 						original_tag = GRE
 					}
-					has_character = GRE_george_i
+					has_character = GRE_Leopoldos_I
 					else = {
 						is_subject_of = GRE
 						GRE = {
-							has_character = GRE_george_i
+							has_character = GRE_Leopoldos_I
 						}
 					}
 				}
 				NOT = {
 					has_country_leader = {
-						character = GRE_george_i
+						character = GRE_Leopoldos_I
 						ruling_only = yes
 					}
-					has_country_leader = {
-						character = GRE_constantine_i
-						ruling_only = yes
-					}
-					has_country_leader = {
-						character = GRE_alexander
-						ruling_only = yes
-					}
-					has_country_leader = {
-						character = GRE_george_ii
-						ruling_only = yes
-					}
-					has_idea = GRE_idea_constantine
-					has_idea = GRE_idea_constantine_byz
-					has_idea = GRE_idea_alexander
-					has_idea =  GRE_idea_george_ii
-					#has_idea = GRE_george_ii_restrained
+					#has_idea = GRE_Leopoldos_Ii_restrained
 					has_cosmetic_tag = GRE_republic
 				}
 				OR = {
@@ -1311,251 +1274,6 @@ ideas = {
 			modifier = {
 				stability_factor = 0.05
 				neutrality_drift = 0.05
-			}
-		}
-		GRE_idea_constantine = {
-			name = GRE_constantine_i
-			allowed = {
-				OR = {
-					original_tag = GRE
-					original_tag = CRE
-				}
-			}
-			picture = GRE_constantine
-			allowed_civil_war = {
-				always = yes
-			}
-			available = {
-				if = {
-					limit = {
-						original_tag = GRE
-					}
-					has_country_leader = {
-						character = GRE_constantine_i
-						ruling_only = no
-					}
-					else = {
-						is_subject_of = GRE
-						GRE = {
-							has_country_leader = {
-								character = GRE_constantine_i
-								ruling_only = no
-							}
-						}
-					}
-				}
-				NOT = {
-					has_country_leader = {
-						character = GRE_george_i
-					}
-					has_country_leader = {
-						character = GRE_constantine_i
-					}
-					has_country_leader = {
-						character = GRE_alexander
-					}
-					has_country_leader = {
-						character = GRE_george_ii
-					}
-					has_idea = GRE_idea_alexander
-					has_idea = GRE_idea_constantine_byz
-					has_idea =  GRE_idea_george_ii
-					#has_idea = GRE_george_ii_restrained
-					has_cosmetic_tag = GRE_republic
-				}
-				OR = {
-					NOT = {
-						has_government = communism
-					}
-					has_cosmetic_tag = GRE_democratic
-				}
-			}
-			removal_cost = -1
-			modifier = {
-				ai_get_ally_desire_factor = -1.0
-				ai_join_ally_desire_factor = -1.0
-			}
-		}
-		GRE_idea_constantine_byz = {
-			name = GRE_constantine_xii
-			allowed = {
-				OR = {
-					original_tag = GRE
-					original_tag = CRE
-				}
-			}
-			picture = GRE_constantine
-			allowed_civil_war = {
-				always = yes
-			}
-			available = {
-				if = {
-					limit = {
-						original_tag = GRE
-					}
-					has_country_leader = {
-						character = GRE_constantine_i
-						ruling_only = no
-					}
-					else = {
-						is_subject_of = GRE
-						GRE = {
-							has_country_leader = {
-								character = GRE_constantine_i
-								ruling_only = no
-							}
-						}
-					}
-				}
-				NOT = {
-					has_country_leader = {
-						character = GRE_george_i
-					}
-					has_country_leader = {
-						character = GRE_constantine_i
-					}
-					has_country_leader = {
-						character = GRE_alexander
-					}
-					has_country_leader = {
-						character = GRE_george_ii
-					}
-					has_idea = GRE_idea_alexander
-					has_idea =  GRE_idea_george_ii
-					#has_idea = GRE_george_ii_restrained
-					has_cosmetic_tag = GRE_republic
-				}
-				OR = {
-					NOT = {
-						has_government = communism
-					}
-					has_cosmetic_tag = GRE_democratic
-				}
-			}
-			removal_cost = -1
-			modifier = {
-				war_support_factor = 0.1
-				ai_get_ally_desire_factor = -1.0
-				ai_join_ally_desire_factor = -1.0
-			}
-		}
-		GRE_idea_alexander = {
-			name = GRE_alexander
-			allowed = {
-				OR = {
-					original_tag = GRE
-					original_tag = CRE
-				}
-			}
-			allowed_civil_war = {
-				always = yes
-			}
-			removal_cost = -1
-			picture = GRE_alexander
-			modifier = {
-				stability_factor = 0.05
-			}
-			available = {
-				if = {
-					limit = {
-						original_tag = GRE
-					}
-					has_country_leader = {
-						character = GRE_alexander
-						ruling_only = no
-					}
-					else = {
-						is_subject_of = GRE
-						GRE = {
-							has_country_leader = {
-								character = GRE_alexander
-								ruling_only = no
-							}
-						}
-					}
-				}
-				NOT = {
-					has_country_leader = {
-						character = GRE_george_i
-					}
-					has_country_leader = {
-						character = GRE_constantine_i
-					}
-					has_country_leader = {
-						character = GRE_alexander
-					}
-					has_country_leader = {
-						character = GRE_george_ii
-					}
-					has_idea =  GRE_idea_george_ii
-					#has_idea = GRE_george_ii_restrained
-					has_cosmetic_tag = GRE_republic
-					has_country_flag = GRE_alexander_dead
-				}
-				OR = {
-					NOT = {
-						has_government = communism
-					}
-					has_cosmetic_tag = GRE_democratic
-				}
-			}
-		}
-		GRE_idea_george_ii = {
-			name = GRE_george_ii
-			allowed = {
-				OR = {
-					original_tag = GRE
-					original_tag = CRE
-				}
-			}
-			allowed_civil_war = { always = yes }	
-			picture = gre_george_ii
-			removal_cost = -1
-			available = {
-				if = {
-					limit = {
-						original_tag = GRE
-					}
-					has_country_leader = {
-						character = GRE_george_ii
-						ruling_only = no
-					}
-					else = {
-						is_subject_of = GRE
-						GRE = {
-							has_country_leader = {
-								character = GRE_george_ii
-								ruling_only = no
-							}
-						}
-					}
-				}
-				NOT = {
-					has_country_leader = {
-						character = GRE_george_i
-					}
-					has_country_leader = {
-						character = GRE_constantine_i
-					}
-					has_country_leader = {
-						character = GRE_alexander
-					}
-					has_country_leader = {
-						character = GRE_george_ii
-					}
-					has_cosmetic_tag = GRE_republic
-					has_government = communism
-					#has_idea = GRE_george_ii_restrained
-				}
-				OR = {
-					NOT = {
-						has_government = communism
-					}
-					has_cosmetic_tag = GRE_democratic
-				}
-			}
-			modifier = {
-				stability_factor = 0.05		
 			}
 		}
 		GRE_memory_of_1821 = {
