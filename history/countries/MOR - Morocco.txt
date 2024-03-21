@@ -7,7 +7,14 @@ recruit_character = MOR_yusef_bin_hassan
 recruit_character = MOR_muhammad_bin_yusef
 
 # oob = "MOR_1910"
-
+FRA={
+	set_autonomy = {
+		target = MOR
+		autonomous_state = autonomy_tgwr_informal_protectorate
+		freedom_level = 0.9
+	}
+}
+MOR = { set_country_flag = protectorate }
 1910.1.1 = {
 	set_technology = {
 		#infantry

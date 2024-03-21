@@ -11,9 +11,11 @@ recruit_character = IRQ_samir_nadir_mustafa
 EGY={
 	set_autonomy = {
 		target = IRQ
-		autonomy_state = autonomy_tgwr_protectorate
+		autonomous_state = autonomy_tgwr_informal_protectorate
+		freedom_level = 0.9
 	}
 }
+IRQ  = { set_country_flag = protectorate }
 set_cosmetic_tag = IRQ_EGY_puppet
 set_technology = {
 	#infantry

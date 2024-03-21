@@ -4,13 +4,15 @@ set_research_slots = 3
 set_stability = 0.36
 set_war_support = 0.74
 set_convoys = 30
-set_cosmetic_tag = RUS_puppet
+set_cosmetic_tag = FIN_RUS_puppet
 RUS={
 	set_autonomy = {
 		target = FIN
-		autonomy_state = autonomy_dominion
+		autonomous_state = autonomy_tgwr_informal_protectorate
+		freedom_level = 0.9
 	}
 }
+FIN = { set_country_flag = protectorate }
 recruit_character = FIN_carl_gustaf_mannerheim
 recruit_character = FIN_pehr_evind_svinhufvud
 recruit_character = FIN_kullervo_manner

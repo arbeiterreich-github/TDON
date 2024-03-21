@@ -1887,3 +1887,6 @@
  SPR_REP:0 "Spanish Republic"
  SPR_REP_DEF:0 "Spanish Republic"
  SPR_REP_ADJ:0 "Spanish"
+ FIN_RUS_puppet: "Grand Duchy of Finland"
+ FIN_RUS_puppet_ADJ: "Finnish"
+ FIN_RUS_puppet_DEF: "Grand Duchy of Finland"

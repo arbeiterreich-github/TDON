@@ -15,6 +15,7 @@ create_faction = entente
 add_to_faction = FRA
 add_to_faction = SPR
 add_to_faction = EGY
+add_to_faction = ITA
 give_guarantee = GER
 give_guarantee = USA
 give_guarantee = HUN

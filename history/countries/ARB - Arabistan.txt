@@ -21,3 +21,11 @@ recruit_character = ARB_sheikh_khazal
 		neutrality = 100
 	}
 }
+ENG={
+	set_autonomy = {
+		target = ARB
+		autonomous_state = autonomy_tgwr_informal_protectorate
+		freedom_level = 0.9
+	}
+}
+ARB  = { set_country_flag = protectorate }

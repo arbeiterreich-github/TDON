@@ -1373,6 +1373,10 @@ RUS_puppet = {
 	color = rgb { 73 99 40 }
 	color_ui = rgb { 73 99 40 }
 }
+FIN_RUS_puppet = {
+	color = rgb { 73 99 40 }
+	color_ui = rgb { 73 99 40 }
+}
 SPR_REP={
 	color = rgb { 130 30 150 }
 	color_ui = rgb { 130 30 150 }
