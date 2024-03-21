@@ -4,8 +4,7 @@ ideologies = {
 	
 		types = {
 			
-			conservatism = {
-			}
+			
 			social_liberalism = {
 			}
 			classical_liberalism = {
@@ -33,43 +32,68 @@ ideologies = {
 			"FACTION_NAME_DEMOCRATIC_6"
 		}
 		
-		color = { 46 88 158 }
-		
+		color = { 246 139 31 }
 		rules = {
-			can_create_collaboration_government = no
-			can_declare_war_on_same_ideology = no
-			can_force_government = no
-			can_send_volunteers = no
-			can_puppet = yes
-			can_lower_tension = yes
-			can_only_justify_war_on_threat_country = yes
-			can_guarantee_other_ideologies = yes
+			can_force_government = yes
+			can_puppet = no
+			can_join_factions = no
+			can_create_factions = no
+			can_send_volunteers = yes
 		}
-		
-		war_impact_on_world_tension = 0.25
-		faction_impact_on_world_tension = -0.1
-		
+		can_host_government_in_exile = no
+		can_collaborate = yes
 		modifiers = {
-			generate_wargoal_tension = 1.00
-			join_faction_tension = 0.80
-			lend_lease_tension = 0.50
-			send_volunteers_tension = 0.50
-			guarantee_tension = 0.25
-			annex_cost_factor = 0.5
 			civilian_intel_to_others = 20.0
 			army_intel_to_others = 5.0
 			navy_intel_to_others = 20.0
 			airforce_intel_to_others = 5
 		}
-		
-		faction_modifiers = {
-			faction_trade_opinion_factor = 0.50 #plus 50% trade opinion
+		ai_neutral = yes
+		war_impact_on_world_tension = 1
+		ai_ideology_wanted_units_factor = 1.5
+	}
+
+	conservative = {
+	
+		types = {
+			
+			conservatism = {
+			}
+			
 		}
-		ai_neutral = yes # uses the neutral AI behaviour because democratic ai behaviour doesn't work for ww1
+		
+		dynamic_faction_names = {
+			"FACTION_NAME_CONSERVATIVE_1"
+			"FACTION_NAME_CONSERVATIVE_2"
+			"FACTION_NAME_CONSERVATIVE_3"
+			"FACTION_NAME_CONSERVATIVE_4"
+			"FACTION_NAME_CONSERVATIVE_5"
+			"FACTION_NAME_CONSERVATIVE_6"
+		}
+		
+		color = { 0 0 255 }
+		rules = {
+			can_force_government = yes
+			can_puppet = no
+			can_join_factions = no
+			can_create_factions = no
+			can_send_volunteers = yes
+		}
+		can_host_government_in_exile = no
+		can_collaborate = yes
+		modifiers = {
+			civilian_intel_to_others = 20.0
+			army_intel_to_others = 5.0
+			navy_intel_to_others = 20.0
+			airforce_intel_to_others = 5
+		}
+		ai_neutral = yes
+		war_impact_on_world_tension = 1
+		ai_ideology_wanted_units_factor = 1.5
 	}
 
 
-	communism = { # socialism
+	communism = { # 
 		
 		types = {		
 			marxism = {
@@ -101,37 +125,65 @@ ideologies = {
 			"FACTION_NAME_COMMUNIST_5"
 		}
 		
-		color = { 139 0 0 }
-		
-		war_impact_on_world_tension = 1		#Commie more threatening
-		faction_impact_on_world_tension = 0.5
-		
-		ai_communist = yes # uses the commie AI behaviour
-		
+		color = { 127 0 0 }
 		rules = {
-			can_force_government = no
+			can_force_government = yes
+			can_puppet = no
+			can_join_factions = no
+			can_create_factions = no
 			can_send_volunteers = yes
-			can_puppet = yes
-			can_create_collaboration_government = yes
 		}
-
+		can_host_government_in_exile = no
 		can_collaborate = yes
-		
 		modifiers = {
-			puppet_cost_factor = -0.3
 			civilian_intel_to_others = 10.0
 			army_intel_to_others = 7.5
 			navy_intel_to_others = 12.5
 			airforce_intel_to_others = 7.5
-			hidden_modifier = { join_faction_tension = -0.1 }
 		}
-		
-		faction_modifiers = {
-			
-		}
+		ai_communist = yes
+		war_impact_on_world_tension = 1
+		ai_ideology_wanted_units_factor = 1.5
 
 	}
 
+	socialist = { # socialism
+		
+		types = {		
+			socialist_subtype={
+
+			}
+		}
+		
+		dynamic_faction_names = {
+			"FACTION_NAME_SOCIALISM_1"
+			"FACTION_NAME_SOCIALISM_2"
+			"FACTION_NAME_SOCIALISM_3"
+			"FACTION_NAME_SOCIALISM_4"
+			"FACTION_NAME_SOCIALISM_5"
+		}
+		
+		color = { 244 90 90 }
+		rules = {
+			can_force_government = yes
+			can_puppet = no
+			can_join_factions = no
+			can_create_factions = no
+			can_send_volunteers = yes
+		}
+		can_host_government_in_exile = no
+		can_collaborate = yes
+		modifiers = {
+			civilian_intel_to_others = 20.0
+			army_intel_to_others = 5.0
+			navy_intel_to_others = 20.0
+			airforce_intel_to_others = 5
+		}
+		ai_communist = yes
+		war_impact_on_world_tension = 1
+		ai_ideology_wanted_units_factor = 1.5
+
+	}
 	fascism = {	
 		types = {	
 			nazism = {
