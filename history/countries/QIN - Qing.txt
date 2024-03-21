@@ -12,11 +12,11 @@ set_convoys = 64
 
 give_military_access = JAP #South Manchuria Railway
 give_military_access = GER #Qingdao–Jinan Railway
-set_cosmetic_tag = RUS_puppet
+set_cosmetic_tag = QIN_RUS
 RUS={
 	set_autonomy = {
 		target = QIN
-		autonomy_state = autonomy_dominion
+		autonomy_state = autonomy_satellite
 	}
 }
 diplomatic_relation = {

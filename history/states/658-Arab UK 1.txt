@@ -6,7 +6,7 @@ state={
 		victory_points = {
 			7960 1 
 		}
-		owner = MSC
+		owner = ENG
 		add_core_of = UAE
 		buildings = {
 			infrastructure = 2

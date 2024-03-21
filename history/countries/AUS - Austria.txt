@@ -63,7 +63,7 @@ recruit_character = AUS_franz_bohme
 	}
 		
 	set_politics = {
-		ruling_party = democratic
+		ruling_party = neutrality
 		last_election = "1908.10.17"
 		election_frequency = 36
 		elections_allowed = yes
@@ -71,7 +71,7 @@ recruit_character = AUS_franz_bohme
 	set_popularities = {
 		fascism = 5
 		communism = 21
-		democratic = 45
-		neutrality = 29
+		democratic = 29
+		neutrality = 45
 	}
 }

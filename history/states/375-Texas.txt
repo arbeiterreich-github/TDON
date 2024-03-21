@@ -13,8 +13,7 @@ state={
 		victory_points={ 10337 10 }
 		victory_points={ 3960 10 }
 		victory_points={ 12782 1 }
-		owner=CSA
-		add_core_of=CSA
+		owner=USA		add_core_of=USA
 		buildings={
 			infrastructure = 3
 			industrial_complex=4

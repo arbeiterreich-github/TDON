@@ -1361,6 +1361,14 @@ EGY_puppet = {
 	color = rgb { 200 150 50 }
 	color_ui = rgb { 200 150 50 }
 }
+CRE_EGY_puppet = {
+	color = rgb { 200 150 50 }
+	color_ui = rgb { 200 150 50 }
+}
+IRQ_EGY_puppet = {
+	color = rgb { 200 150 50 }
+	color_ui = rgb { 200 150 50 }
+}
 ASR_EGY_puppet = {
 	color = rgb { 200 150 50 }
 	color_ui = rgb { 200 150 50 }
@@ -1370,6 +1378,10 @@ AUS_puppet = {
 	color_ui = rgb { 255 255 255 }
 }
 RUS_puppet = {
+	color = rgb { 73 99 40 }
+	color_ui = rgb { 73 99 40 }
+}
+QIN_RUS = {
 	color = rgb { 73 99 40 }
 	color_ui = rgb { 73 99 40 }
 }

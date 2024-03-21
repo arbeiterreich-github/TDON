@@ -1890,3 +1890,10 @@
  FIN_RUS_puppet: "Grand Duchy of Finland"
  FIN_RUS_puppet_ADJ: "Finnish"
  FIN_RUS_puppet_DEF: "Grand Duchy of Finland"
+ CRE_EGY_puppet: "Colony of Rhomania"
+ CRE_EGY_puppet_DEF: "Colony of Rhomania"
+ CRE_EGY_puppet_ADJ: "Rhomanian"
+
+ CHL_PAT: "Republic of Chile-Patagonia"
+ CHL_PAT_DEF: "Republic of Chile-Patagonia"
+ CHL_PAT_ADJ: "Chilian-Patagonian"

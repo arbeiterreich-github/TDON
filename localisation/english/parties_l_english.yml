@@ -657,7 +657,7 @@
  GRE_SEKE_party_long:0 "Sosialistikó Ergatikó Kómma Elládos"
  GRE_SEKE_party:0 "SEKE"
 
- CRE_neutrality_party:0 "House of Glücksburg"
+ CRE_neutrality_party:0 "Egyptian Governorship"
  CRE_communism_party:0 "Sosialistiki Leshi"
  CRE_democratic_party_long:0 "Ektelestikí Epitropí Krítis"
  CRE_democratic_party:0 "EEK"
@@ -698,7 +698,7 @@
  UBD_fascism_party:0 "Verband der Ordensgründer"
  UBD_communism_party:0 "Mežabrāļi"
  
- IRQ_neutrality_party:0 "Hashemites"
+ IRQ_neutrality_party:0 "Al Sa'adon"
  IRQ_fascism_party:0 "HIW"
  IRQ_fascism_party_long:0 "Party of National Brotherhood"
  IRQ_communism_party:0 "ICP"

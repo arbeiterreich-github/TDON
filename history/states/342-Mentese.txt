@@ -5,7 +5,7 @@ state={
 		chromium=7.000
 	}
 	history={
-		owner = EGY
+		owner = CRE
 		add_core_of = TUR
 		buildings = {
 			infrastructure = 2

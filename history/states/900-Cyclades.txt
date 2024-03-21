@@ -3,8 +3,8 @@ state={
 	name="STATE_900"
 	provinces={ 3401 }
 	history={
-		owner = GRE
-		add_core_of = GRE
+		owner = CRE
+		add_core_of = CRE
 		buildings = {
 			infrastructure = 1
 		}

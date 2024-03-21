@@ -9,8 +9,8 @@ state={
 		aluminium=37
 	}
 	history = {
-		owner = CSA
-		add_core_of = CSA
+		owner = USA
+		add_core_of = USA
 		buildings={
 			infrastructure = 2
 			industrial_complex = 1

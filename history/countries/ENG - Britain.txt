@@ -138,12 +138,6 @@ if = {
 	}
 	KUW  = { set_country_flag = protectorate }
 	set_autonomy = {
-		target = DAR
-		autonomous_state = autonomy_tgwr_informal_protectorate
-		freedom_level = 0.9
-	}
-	DAR  = { set_country_flag = protectorate }
-	set_autonomy = {
 		target = BHR
 		autonomous_state = autonomy_tgwr_informal_protectorate
 		freedom_level = 0.9

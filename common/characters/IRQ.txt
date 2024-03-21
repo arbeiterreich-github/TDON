@@ -1,33 +1,17 @@
 characters={
-	IRQ_abdullah_i={
-		name=IRQ_abdullah_i
+	IRQ_Ajami_I={
+		name=IRQ_Ajami_I
 		portraits={
 			civilian={
 				small="GFX_idea_generic_army_chief_off"
-				large="gfx/leaders/IRQ/IRQ_abdullah_i.png"
+				large="gfx/leaders/IRQ/IRQ_Ajami_I.png"
 			}
 		}
 		country_leader={
 			ideology=autocracy
 		}
 	}
-	IRQ_faisal_i={
-		name=SYR_faisal_i
-		portraits={
-			civilian={
-				large="gfx/leaders/SYR/SYR_faisal_i.png"
-				small="GFX_idea_generic_army_arab_2"
-			}
-		}
-	}
-	IRQ_ghazi_bin_faisal = {
-		name=SYR_ghazi_bin_faisal
-		portraits={
-			civilian={
-				large="GFX_portrait_iraq_ghazi"
-			}
-		}
-	}
+	
 	IRQ_abduk_muhsin_al_sadoun = {
 		name="Abdul Muhsin Al Sadoun"
 		portraits={
