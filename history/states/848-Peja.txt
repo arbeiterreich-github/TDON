@@ -1,0 +1,17 @@
+state={
+	id=848
+	name="STATE_848"
+	history={
+		owner = ALB
+		add_core_of = ALB
+		buildings = {
+			infrastructure = 2
+		}
+	}
+	provinces={
+		6913 
+	}
+	manpower=69420
+	buildings_max_level_factor=1.000
+	state_category=wasteland 
+}

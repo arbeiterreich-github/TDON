@@ -1,0 +1,207 @@
+﻿capital = 292
+set_stability=0.36
+
+set_research_slots = 1
+
+recruit_character = SAU_abdulazis_ibn_saud
+recruit_character = SAU_saud_kabeer
+recruit_character = SAU_muhammad_bin_abdul_rahman
+recruit_character = SAU_Abdulrahman_Al_Saud
+recruit_character = SAU_saad_bin_abdul_rahman
+recruit_character = SAU_faisal_al_duwaish
+recruit_character = SAU_zaidan_ibn_hithlain
+recruit_character = SAU_sultan_bin_bajad
+
+activate_mission = SAU_nejd_hail_Caravan
+activate_mission = SAU_nejd_najran_Caravan
+activate_mission = SAU_nejd_hasa_Caravan
+activate_mission = SAU_nejd_hejaz_Caravan 
+# Arabian Nights
+add_opinion_modifier = {
+	target = JBS
+	modifier = historical_rival
+}
+
+1910.1.1 = {
+	oob="SAU_1910"
+	set_technology = {
+		#infantry
+		infantry_weapons = 1
+		camelry = 1
+	}  
+
+	set_politics = {
+		ruling_party = neutrality
+		last_election = "1910.1.1"
+		election_frequency = 48
+		elections_allowed = no
+	}
+	set_popularities = {
+		democratic = 0
+		fascism = 0
+		communism = 0
+		neutrality = 100
+	}
+
+	add_ideas = { 
+		isolation 
+		limited_exports 
+		#SAU_Imam_Abdulrahman
+		SAU_Abdulrahman_Al_Saud_idea
+		GULF_slavery
+		unification_of_arabia
+	}
+}
+1914.1.1 = {
+	add_political_power = 555
+	add_command_power = 100
+	complete_national_focus = SAU_Convene_Shura
+	complete_national_focus = SAU_protect_caravan_merchants
+	complete_national_focus = SAU_expand_ikhwan_militias
+	complete_national_focus = SAU_Dynasty_Politics
+	complete_national_focus = SAU_Bedouin_Tactics
+	complete_national_focus = SAU_confiscate_ottoman_weapones
+	complete_national_focus = SAU_Darin_Airfield
+	complete_national_focus = SAU_conscript_tribes
+	complete_national_focus = SAU_camelry
+	complete_national_focus = SAU_Ihsaa_naval_base
+	complete_national_focus = SAU_import_mesopotamia_food
+	complete_national_focus = SAU_gather_support
+	complete_national_focus = SAU_northern_raids
+	complete_national_focus = SAU_Autocracy
+
+	remove_power_balance = {
+		id = SAU_Dynasty_Dispute
+	}
+	set_cosmetic_tag = SAU_nejd_and_hasa
+
+	add_ideas = { 
+		isolation 
+		limited_exports 
+		GULF_slavery
+		unification_of_arabia
+	}
+}
+
+for_each_scope_loop = {
+	array = SAU.core_states
+	if = {
+		limit = { is_owned_and_controlled_by = SAU }
+		add_to_array = { SAU.states_to_highlight = THIS }
+	}
+}
+for_each_scope_loop = {
+	array = HJZ.core_states
+	if = {
+		limit = { is_owned_and_controlled_by = HJZ }
+		add_to_array = { SAU.states_to_highlight = THIS }
+	}
+}
+for_each_scope_loop = {
+	array = NAJ.core_states
+	if = {
+		limit = { is_owned_and_controlled_by = NAJ }
+		add_to_array = { SAU.states_to_highlight = THIS }
+	}
+}
+for_each_scope_loop = {
+	array = MSC.core_states
+	if = {
+		limit = { is_owned_and_controlled_by = MSC }
+		add_to_array = { SAU.states_to_highlight = THIS }
+	}
+}
+for_each_scope_loop = {
+	array = YEM.core_states
+	if = {
+		limit = { is_owned_and_controlled_by = YEM }
+		add_to_array = { SAU.states_to_highlight = THIS }
+	}
+}
+for_each_scope_loop = {
+	array = JBS.core_states
+	if = {
+		limit = { is_owned_and_controlled_by = JBS }
+		add_to_array = { SAU.states_to_highlight = THIS }
+	}
+}
+for_each_scope_loop = {
+	array = QAT.core_states
+	if = {
+		limit = { is_owned_and_controlled_by = QAT }
+		add_to_array = { SAU.states_to_highlight = THIS }
+	}
+}
+for_each_scope_loop = {
+	array = BHR.core_states
+	if = {
+		limit = { is_owned_and_controlled_by = BHR }
+		add_to_array = { SAU.states_to_highlight = THIS }
+	}
+}
+for_each_scope_loop = {
+	array = AMR.core_states
+	if = {
+		limit = { is_owned_and_controlled_by = AMR }
+		add_to_array = { SAU.states_to_highlight = THIS }
+	}
+}
+for_each_scope_loop = {
+	array = RWL.core_states
+	if = {
+		limit = { is_owned_and_controlled_by = RWL }
+		add_to_array = { SAU.states_to_highlight = THIS }
+	}
+}
+for_each_scope_loop = {
+	array = KUW.core_states
+	if = {
+		limit = { is_owned_and_controlled_by = KUW }
+		add_to_array = { SAU.states_to_highlight = THIS }
+	}
+}
+for_each_scope_loop = {
+	array = BID.core_states
+	if = {
+		limit = { is_owned_and_controlled_by = BID }
+		add_to_array = { SAU.states_to_highlight = THIS }
+	}
+}
+for_each_scope_loop = {
+	array = UAE.core_states
+	add_to_array = { SAU.states_to_highlight = THIS }
+}
+for_each_scope_loop = {
+	array = YEM.core_states
+	add_to_array = { YEM.states_to_highlight = THIS }
+}
+for_each_scope_loop = {
+	array = HJZ.core_states
+	add_to_array = { HJZ.states_to_highlight = THIS }
+}
+add_to_array = { SAU.states_to_highlight = 678 }
+add_to_array = { SAU.states_to_highlight = 804 }
+add_to_array = { SAU.states_to_highlight = 659 }
+add_to_array = { SAU.states_to_highlight = 658 }
+add_to_array = { SAU.states_to_highlight = 293 }
+add_to_array = { SAU.states_to_highlight = 654 }
+add_to_array = { SAU.states_to_highlight = 662 }
+add_to_array = { SAU.states_to_highlight = 747 }
+add_to_array = { SAU.states_to_highlight = 679 }
+add_to_array = { SAU.states_to_highlight = 878 }
+
+add_dynamic_modifier = {
+	modifier = SAU_Urban_influence_dynamic_modifier
+}
+set_variable = { SAU_Urban_invetments = -0.1 }
+set_variable = { SAU_Urban_resources_to_market = 0.1 }
+set_variable = { SAU_Urban_political_power = 0.1 }
+
+add_dynamic_modifier = {
+	modifier = SAU_Tribal_influence_dynamic_modifier
+}
+set_variable = { SAU_logistics = 0.1 }
+set_variable = { SAU_army = 0.1 }
+set_variable = { SAU_modernization = -0.2 }
+
+activate_advisor = SAU_Abdulrahman_Al_Saud_idea

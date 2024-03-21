@@ -1,0 +1,17 @@
+state={
+	id=859
+	name="STATE_859"
+	history = {
+		owner = EGY
+		add_core_of = SYR
+		buildings = {
+			infrastructure = 2
+		}
+	}
+	provinces={
+		12029
+	}
+	manpower=48000
+	state_category = enclave
+	buildings_max_level_factor=1.000
+}

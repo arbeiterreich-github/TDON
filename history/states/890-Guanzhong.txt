@@ -1,0 +1,23 @@
+state={
+	id=890
+	name="STATE_890"
+	provinces={
+		1976 2006 4167 4256 4295 5092 7301 7406 7418 10257 12713 
+	}
+	history = {
+		victory_points = {
+			4256 2 
+		}
+		owner = CHI
+		add_core_of = CHI
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 1
+		}
+		
+	}
+	manpower=1986941
+	buildings_max_level_factor=1.000
+	state_category=city
+	local_supplies=0.000
+}

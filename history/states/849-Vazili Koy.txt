@@ -1,0 +1,16 @@
+state={
+	id=849
+	name="STATE_849"
+	manpower = 9800
+	state_category=wasteland
+	provinces={ 9902 }
+	history={
+		owner=BUL
+		add_claim_by = BUL
+		add_core_of=BUL
+		buildings={
+			infrastructure = 2
+		}
+	}
+	
+}

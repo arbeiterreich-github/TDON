@@ -1,0 +1,19 @@
+state = {
+	id=879
+	name="STATE_879"
+	history = {
+		victory_points = {
+			3916 3 
+		}
+		owner = KUR
+		add_core_of = KUR
+		buildings = {
+			infrastructure = 1
+		}
+	}
+	provinces = { 
+		3916 5014 10811
+	}
+	manpower = 52467
+	state_category=pastoral
+}

@@ -1,0 +1,19 @@
+state={
+	id=882
+	name="STATE_882"
+	history={
+		victory_points = { 4932 1 }
+		owner = OMA
+		add_claim_by = MSC
+		add_core_of = OMA
+		buildings = {
+			infrastructure = 1
+		}
+	}
+	provinces={
+		3336 4932 5049 13129 
+	}
+	manpower=161000
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

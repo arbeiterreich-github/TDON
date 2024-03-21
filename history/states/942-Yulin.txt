@@ -1,0 +1,18 @@
+state={
+	id=942
+	name="STATE_942"
+	manpower = 793900
+	state_category = town
+	provinces= { 1458 7314 7659 }
+	history={
+		victory_points = {
+			7659 1
+		}
+		owner = CHI
+		add_core_of = CHI
+		buildings={
+			infrastructure = 1
+		}
+		
+	}
+}
