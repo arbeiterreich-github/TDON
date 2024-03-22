@@ -63,7 +63,7 @@ characters={
 			}
 		}
 		country_leader={
-			ideology = liberal_conservatism
+			ideology = conservatism
 			traits = { headstrong germanophile dislikes_russia }
 		}
 	}

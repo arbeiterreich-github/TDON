@@ -70,14 +70,15 @@ recruit_character = HUN_shvoy_kalman
 	}
 
 	set_politics = {
-		ruling_party = neutrality
+		ruling_party = democratic
 		last_election = "1908.10.31"
 		election_frequency = 60
 		elections_allowed = yes
 	}
 	set_popularities = {
-		democratic = 40
-		neutrality = 34
+		democratic = 30
+		neutrality = 26
+		conservative = 18
 		fascism = 2
 		communism = 24
 	}

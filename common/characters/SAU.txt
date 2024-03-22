@@ -1,10 +1,19 @@
 characters={
-	SAU_abdulazis_ibn_saud={
-		name="SAU_abdulazis_ibn_saud"
-		portraits={
-			civilian={
-				large="gfx/leaders/SAU/SAU_abdulazis_ibn_saud.png"
+	SAU_Abdulrahman_Al_Saud = {
+		name = "Abdulrahman Al Saud"
+		portraits = {
+			army = {
+				large = "gfx/leaders/SAU/SAU_Abdulrahman_Al_Saud.png"
+				small = "gfx/interface/ideas/SAU/idea_SAU_Abdulrahman_Al_Saud.png"
 			}
+		}
+		field_marshal = {
+			traits = { old_guard inspirational_leader media_personality cavalry_expert politically_connected }
+			skill = 3
+			attack_skill = 4
+			defense_skill = 3
+			planning_skill = 2
+			logistics_skill = 3
 		}
 		country_leader={
 			ideology=autocracy
@@ -13,6 +22,22 @@ characters={
 		country_leader={
 			ideology=fundamentalism
 			traits={ warmonger }
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = SAU_Abdulrahman_Al_Saud_idea
+			traits = { 
+				islamist_leader
+			}
+			can_be_fired = no
+		}
+	}
+	SAU_abdulazis_ibn_saud={
+		name="SAU_abdulazis_ibn_saud"
+		portraits={
+			civilian={
+				large="gfx/leaders/SAU/SAU_abdulazis_ibn_saud.png"
+			}
 		}
 		field_marshal = {
 			traits = {
@@ -34,31 +59,6 @@ characters={
 			civilian={
 				large="gfx/leaders/SAU/SAU_saud_kabeer.png"
 			}
-		}
-	}
-	SAU_Abdulrahman_Al_Saud = {
-		name = "Abdulrahman Al Saud"
-		portraits = {
-			army = {
-				large = "gfx/leaders/SAU/SAU_Abdulrahman_Al_Saud.png"
-				small = "gfx/interface/ideas/SAU/idea_SAU_Abdulrahman_Al_Saud.png"
-			}
-		}
-		field_marshal = {
-			traits = { old_guard inspirational_leader media_personality cavalry_expert politically_connected }
-			skill = 3
-			attack_skill = 4
-			defense_skill = 3
-			planning_skill = 2
-			logistics_skill = 3
-		}
-		advisor = {
-			slot = political_advisor
-			idea_token = SAU_Abdulrahman_Al_Saud_idea
-			traits = { 
-				islamist_leader
-			}
-			can_be_fired = no
 		}
 	}
 	SAU_muhammad_bin_abdul_rahman={

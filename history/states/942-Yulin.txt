@@ -8,7 +8,7 @@ state={
 		victory_points = {
 			7659 1
 		}
-		owner = CHI
+		owner = PRC
 		add_core_of = CHI
 		buildings={
 			infrastructure = 1

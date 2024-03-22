@@ -844,6 +844,10 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideas/SER/idea_helen.png"
 	}
 	spriteType = {
+		name = "GFX_idea_milan_i_idea"
+		texturefile = "gfx/interface/ideas/SER/milan_i_idea.png"
+	}
+	spriteType = {
 		name = "GFX_idea_peter_i"
 		texturefile = "gfx/interface/ideas/SER/idea_peter_i.png"
 	}
@@ -2484,6 +2488,10 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_idea_EGY_abbas_ii"
 		texturefile = "gfx/interface/ideas/egy/EGY_abbas_ii.png"
+	}
+	spriteType = {
+		name = "GFX_idea_MEX_agustin_iii_idea"
+		texturefile = "gfx/interface/ideas/egy/MEX_agustin_iii_idea.png"
 	}
 	spriteType = {
 		name = "GFX_idea_GRE_constantine"

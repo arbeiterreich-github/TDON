@@ -5,7 +5,7 @@ state={
 
 	history={
 		victory_points={ 10724 2 }
-		owner = CHI
+		owner = XSM
 		add_core_of = CHI
 		add_core_of = MON
 		buildings = {

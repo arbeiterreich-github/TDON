@@ -12,7 +12,30 @@ add_equipment_to_stockpile = {
 	amount = 30000
 	producer = RUS
 }
-
+set_autonomy = {
+	target = BUL
+	autonomy_state = autonomy_satellite
+}
+set_autonomy = {
+	target = ROM
+	autonomy_state = autonomy_satellite
+}
+ROM={
+	set_politics = {
+		ruling_party = conservative
+		last_election = "1911.3.1"
+		election_frequency = 48
+		elections_allowed = yes
+	}
+	set_popularities = {
+		democratic = 28
+		conservative = 37
+		fascism = 0
+		socialist = 4
+		communism = 2
+		neutrality = 29
+	}
+}
 if = {
 	limit = {
 		has_subject_autonomy_feature = yes

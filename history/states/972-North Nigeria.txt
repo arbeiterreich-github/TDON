@@ -1,0 +1,20 @@
+state = {
+	id = 972
+	name = "STATE_972"
+	manpower = 111100
+	state_category = pastoral
+	history = {
+		victory_points = {
+			1891 1
+		}
+		owner = NGA
+		add_core_of = NGA
+		buildings = {
+			infrastructure = 1
+		}
+	}
+	provinces = {
+		1891 1932 1969 
+	}
+	local_supplies = 1.0 
+}

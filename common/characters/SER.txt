@@ -51,17 +51,25 @@ characters = {
 			}
 		}
 	}
-	SER_petar_i = {
-		name = SER_peter_i
+	SER_milan_i = {
+		name = "Milan I"
 		portraits = {
 			civilian = {
-				large = "gfx/leaders/SER/SER_peter_i.png"
+				large = "gfx/leaders/SER/SER_milan_i.png"
 			}
 		}
 		country_leader = {
 			ideology = semi_constitutional_monarchy
 			traits = {
-				democratic_reformer
+				unpopular_monarch
+			}
+		}
+	}
+	SER_petar_i = {
+		name = SER_peter_i
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/SER/SER_peter_i.png"
 			}
 		}
 		field_marshal = {

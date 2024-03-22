@@ -339,7 +339,7 @@ characters = {
 				}
 		}
 		country_leader = {
-			ideology = authoritarian_democracy
+			ideology = conservatism
 			traits = { TUR_marshal_vezier grand_vizier }
 		}
 	}
@@ -2282,10 +2282,7 @@ characters = {
 				islamist_modern 
 			}
 			available = {
-				OR = {
-					has_completed_focus = TUR_pardon_conservatives
-					has_completed_focus = TUR_end_of_the_young_turks
-				}
+				
 			}
 			ai_will_do = {
 				factor = 10.000

@@ -104,7 +104,39 @@ ideas = {
 				neutrality_drift = -0.02
 			}
 		}
+		SER_idea_milan_i = {
+			name = SER_milan_i
+			allowed = {
+				always = yes
+			}
+			available = {
+				NOT = {
+					OR={
+						has_country_leader = {
+							character = SER_milan_i
+						}
+						has_country_leader = {
+							character = SER_petar_i
+							ruling_only = yes
+						}
+					}
+					OR={
+						has_government = socialist
+						has_government = communism
+					}
+				}
+			}
+			picture = milan_i_idea
+			removal_cost = -1
+			modifier = {
+				stability_factor = 0.01
+				democratic_drift = -0.01
+				conservative_drift = 0.01
+				army_morale_factor = -0.05
+			}
+		}
 		SER_idea_petar_i = {
+
 			allowed = {
 				always = no
 			}
@@ -126,62 +158,6 @@ ideas = {
 				democratic_drift = 0.02
 				democratic_acceptance = 20
 				army_morale_factor = 0.05
-			}
-		}
-		SER_idea_petar_i2 = {
-			allowed = {
-				always = no
-			}
-			available = {
-				NOT = {
-					has_country_leader = {
-						character = SER_petar_i
-					}
-					has_country_leader = {
-						character = SER_dorde_obrenovic
-						ruling_only = yes
-					}
-				}
-			}
-			name = SER_idea_petar_i
-			picture = peter_i
-			removal_cost = -1
-			modifier = {
-				stability_factor = 0.15
-				democratic_drift = 0.02
-				democratic_acceptance = 20
-				army_morale_factor = 0.05
-			}
-			traits = {
-				indisputable_ruler
-			}
-		}
-		SER_idea_petar_i3 = {
-			allowed = {
-				always = no
-			}
-			available = {
-				NOT = {
-					has_country_leader = {
-						character = SER_petar_i
-					}
-					has_country_leader = {
-						character = SER_dorde_obrenovic
-						ruling_only = yes
-					}
-				}
-			}
-			name = SER_idea_petar_i
-			picture = peter_i
-			removal_cost = -1
-			modifier = {
-				stability_factor = 0.05
-				neutrality_drift = 0.02
-				neutrality_acceptance = 20
-				army_morale_factor = 0.05
-			}
-			traits = {
-				indisputable_ruler
 			}
 		}
 		SER_idea_alexander_i = {

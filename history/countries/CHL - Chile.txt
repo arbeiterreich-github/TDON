@@ -395,4 +395,4 @@ if = {
 	}
 }	
 
-set_cosmetic_tag = CHL_PAT
+set_cosmetic_tag = CHL_ARC

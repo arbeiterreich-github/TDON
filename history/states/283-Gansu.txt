@@ -12,7 +12,7 @@ state={
 		victory_points = {
 			2022 2 
 		}
-		owner = CHI
+		owner = XSM
 		add_core_of = CHI
 		buildings = {
 			infrastructure = 2

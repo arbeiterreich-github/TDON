@@ -7,7 +7,7 @@ state={
 
 	history={
 		victory_points = { 4205 1 }
-		owner=ENG
+		owner=AUS
 		add_core_of = QIN
 		buildings={
 			infrastructure = 2

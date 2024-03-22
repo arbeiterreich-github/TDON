@@ -1,7 +1,7 @@
 ﻿capital = 325
 
 set_research_slots = 2
-
+recruit_character = YUN_William_Grenfell_Max_Muller
 recruit_character = YUN_gu_pinzhen
 recruit_character = YUN_long_yun
 recruit_character = YUN_lu_han
@@ -24,7 +24,7 @@ set_popularities = {
 }
 
 add_ideas = {
-	isolation
+	
 	limited_exports
 }
 
@@ -42,4 +42,26 @@ set_technology = {
 	mechanical_engineering = 1
 	basic_train = 1
         
+}
+ENG={
+	set_autonomy = {
+		target = YUN
+		autonomy_state = autonomy_colony
+	}
+	YUN={
+		set_politics = {
+			ruling_party = neutrality
+			last_election = "1910.1.1"
+			election_frequency = 48
+			elections_allowed = no
+		}
+		
+		set_popularities = {
+			fascism = 0
+			communism = 0
+			democratic = 0
+			neutrality = 100
+		}
+		set_cosmetic_tag = YUN_ENG
+	}
 }

@@ -1894,8 +1894,14 @@
  CRE_EGY_puppet_DEF: "Colony of Rhomania"
  CRE_EGY_puppet_ADJ: "Rhomanian"
 
- CHL_PAT: "Republic of Chile-Patagonia"
- CHL_PAT_DEF: "Republic of Chile-Patagonia"
- CHL_PAT_ADJ: "Chilian-Patagonian"
+ CHL_ARC: "Republic of Chile-Araucanía"
+ CHL_ARC_DEF: "Republic of Chile-Araucanía"
+ CHL_ARC_ADJ: "Chilian-Araucanían"
 
+ YUN_ENG: "Yunnan Presidency"
+ YUN_ENG_DEF: "the Yunnan Presidency"
+ 
+ CEN_AM: "Greater Republic of Central America"
+ CEN_AM_DEF: "the Greater Republic of Central America"
+ CEN_AM_ADJ: "Central American"
  COG_mandate: "International Mandate for the Congo"

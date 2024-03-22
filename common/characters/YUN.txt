@@ -18,6 +18,23 @@ characters = {
 			logistics_skill = 2
 		}
 	}
+	YUN_William_Grenfell_Max_Muller = {
+		name = "William Grenfell Max Muller"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/YUN/YUN_William_Grenfell_Max_Muller.png"
+			}
+			army = {
+				small = GFX
+				large = "gfx/leaders/YUN/YUN_William_Grenfell_Max_Muller.png"
+			}
+		}
+		
+		country_leader = {
+			ideology = oligarchism
+			traits = {  }
+		}
+	}
 	YUN_long_yun = {
 		name = YUN_long_yun
 		portraits = {
@@ -34,11 +51,11 @@ characters = {
 			traits = { chinese_nationalist }
 		}
 		country_leader = {
-			ideology = stratocracy
+			ideology = social_liberalism
 			traits = { chinese_nationalist }
 		}
 		country_leader = {
-			ideology = authoritarian_democracy
+			ideology = stratocracy
 			traits = { chinese_nationalist }
 		}
 		corps_commander = {
