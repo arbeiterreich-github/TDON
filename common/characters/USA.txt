@@ -48,17 +48,6 @@ characters={
 			ideology=reformist_socialism
 		}
 	}
-	USA_william_h_taft={
-		name="USA_william_h_taft"
-		portraits={
-			civilian={
-				large="gfx/leaders/USA/USA_william_h_taft.png"
-			}
-		}
-		country_leader={
-			ideology=classical_liberalism
-		}
-	}
 	USA_theodore_roosevelt={
 		name="USA_theodore_roosevelt"
 		portraits={
@@ -70,6 +59,19 @@ characters={
 			#desc="USA_theodore_roosevelt_DESC"
 			ideology=socialism
 			traits={ bull_moose  }		
+		}
+	}
+	USA_William_Jennings_Bryan={
+		name="William J. Byran"
+		portraits={
+			civilian={
+				large="gfx/leaders/USA/USA_William_Jennings_Bryan.png"
+			}
+		}
+		country_leader={
+			#desc="USA_William_Jennings_Bryan_DESC"
+			ideology=conservatism
+			traits={   }		
 		}
 	}
 	USA_william_joseph_simmons={
@@ -1041,35 +1043,7 @@ characters={
 			}
 		}
 	}
-	USA_william_jennings_bryan={
-		advisor={
-			slot = political_advisor
-			idea_token = USA_william_jennings_bryan
-			allowed  = {
-					original_tag  = USA
-				}
-				traits  = {
-					democratic_reformer 
-				}
-				ai_will_do  = {
-					factor  = 1.000
-				}
-				available  = {
-					not  = {
-						has_completed_focus  = USA_radicalism_era 
-					}
-					not  = {
-						has_completed_focus  = USA_american_reactionism 
-					}
-				}
-		}
-		name="USA_william_jennings_bryan"
-		portraits={
-			army={
-				small="GFX_idea_USA_william_jennings_bryan"
-			}
-		}
-	}
+	
 	USA_oscar_w_underwood={
 		advisor={
 			slot = political_advisor

@@ -1,4 +1,16 @@
  characters={
+	FRA_joseph_caillaux = {
+		name = "FRA_joseph_caillaux"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/FRA/FRA_Joseph_Caillaux.png"
+			}
+		}
+		country_leader = {
+			ideology = social_liberalism
+			traits = { corrupted_minister }
+		}
+	}
 	FRA_henri_vaugeois={
 		name="FRA_henri_vaugeois"
 		portraits={
@@ -199,19 +211,6 @@
 			traits = { 
 				stammer
 			}		
-		}
-	}
-	
-	FRA_joseph_caillaux = {
-		name = "FRA_joseph_caillaux"
-		portraits = {
-			civilian = {
-				large = "gfx/leaders/FRA/FRA_Joseph_Caillaux.png"
-			}
-		}
-		country_leader = {
-			ideology = social_liberalism
-			traits = { corrupted_minister }
 		}
 	}
 	

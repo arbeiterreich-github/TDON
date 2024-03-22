@@ -94,6 +94,18 @@ characters={
 			#legacy_id=86029
 		}
 	}
+	SPR_antonio_maura={
+		name="SPR_antonio_maura"
+		portraits={
+			civilian={
+				large="gfx/leaders/SPR/SPR_antonio_maura.png"
+			}
+		}
+		country_leader={
+			ideology=conservatism
+			
+		}
+	}
 	SPR_niceto_alcalazamora={
 		name="SPR_niceto_alcalazamora"
 		portraits={

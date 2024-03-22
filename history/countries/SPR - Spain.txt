@@ -6,11 +6,11 @@ set_convoys = 150
 
 set_country_flag = Scramble_for_Africa
 set_cosmetic_tag = SPR_REP
+recruit_character = SPR_antonio_maura
 recruit_character = SPR_alfonso_xiii
 recruit_character = SPR_niceto_alcalazamora
 recruit_character = SPR_pablo_iglesias
 recruit_character = SPR_juan_olazabal
-
 recruit_character = SPR_manuel_fernandez_silvestre
 recruit_character = SPR_gonzalo_queipo_de_llano
 recruit_character = SPR_miguel_primo_de_rivera
@@ -44,7 +44,7 @@ recruit_character = SPR_luis_silvela
 recruit_character = SPR_lucas_puente
 
 
-1910.1.1 = {
+
 	oob = "SPR_1910"
 
 	set_technology = {
@@ -70,23 +70,24 @@ recruit_character = SPR_lucas_puente
 	}
 
 	set_politics = {
-		ruling_party = democratic
+		ruling_party = conservative
 		last_election = "1910.3.8"
 		election_frequency = 48
 		elections_allowed = yes
 	}
 	set_popularities = {
-		democratic = 64
+		democratic = 25
+		conservative = 44
 		fascism = 3
-		communism = 8
-		neutrality = 25
+		communism = 9
+		neutrality = 19
 	}
 
 	add_ideas = {
 		neutrality_idea
 		limited_conscription
 	}
-}
+
 1914.1.1 = {
 	set_politics = {
 		ruling_party = neutrality

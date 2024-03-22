@@ -9,7 +9,7 @@ bookmarks = {
         
 		"USA"={
 			history = "USA_POWDERKEG_DESC"
-			ideology = democratic
+			ideology = conservative
 			ideas = {
 				
 			}
@@ -49,7 +49,7 @@ bookmarks = {
 		}
 		"SPR"={
 			history = "SPR_POWDERKEG_DESC"
-			ideology = neutrality
+			ideology = conservative
 			ideas = {
 						
 			}
@@ -78,10 +78,10 @@ bookmarks = {
 			}
 		}
 		"EGY"={
-			history = "TUR_POWDERKEG_DESC"
-			ideology = neutrality
+			history = "EGY_POWDERKEG_DESC"
+			ideology = conservative
 			ideas = {
-				
+				EGY_idea_abbas_ii
 			}
 			focuses = {
 				
