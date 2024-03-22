@@ -5,7 +5,7 @@ state={
 		8111
 	}
 	history={
-		owner = MOR
+		owner = SPR
 		add_core_of = MOR
 		add_claim_by = SPR
 		buildings = {

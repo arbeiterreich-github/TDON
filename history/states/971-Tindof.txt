@@ -1,0 +1,22 @@
+state = {
+	id = 971
+	name = "STATE_971"
+	manpower = 1111
+	state_category = wasteland
+	history = {
+		victory_points = {
+			7908 1
+		}
+		owner = MOR
+		add_core_of = MOR
+		add_core_of = ALG
+		buildings = {
+			infrastructure = 1
+		}
+	}
+	impassable = yes
+	provinces = {
+		7908
+	}
+	local_supplies = 1.0 
+}
