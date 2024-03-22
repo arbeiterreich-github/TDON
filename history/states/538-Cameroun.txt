@@ -3,12 +3,12 @@ state={
 	name="STATE_538" # Central Congo
 	manpower = 1693974
 	state_category=wasteland
-	provinces={ 988 7219 7931 8016 8048 10071 10883 10951 12741 12775 12824 }
+	provinces={ 988 1950 2073 8048 10951 11934 12808 }
 	resources={
 		rubber=4
 	}
 	history={
-		owner=SPR
+		owner=COG
 		add_core_of = COG
 		buildings={
 			infrastructure = 1

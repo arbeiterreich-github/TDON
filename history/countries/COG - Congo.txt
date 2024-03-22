@@ -12,9 +12,63 @@ set_popularities = {
     neutrality = 100
 }
 create_country_leader = {
-	name = "Spinning Gorilla"
-	picture= "GFX_golira"
+	name = "International Mandate"
+	picture= "gfx/leaders/COG/Mandate_council.png"
 	expire="1935.1.1" 
-	ideology=anarcho_primitivism  
+	ideology=despotism  
 	traits={ german_agent } 
 }
+create_country_leader = {
+	name = "International Mandate"
+	picture= "gfx/leaders/COG/Mandate_council.png"
+	expire="1935.1.1" 
+	ideology=liberal_conservatism
+	traits={ german_agent } 
+}
+HOL={
+    set_autonomy = {
+        target = COG
+        autonomy_state = autonomy_supervised_state
+    }
+    COG={
+        set_politics = {
+            ruling_party = neutrality
+            last_election = "1910.1.1"
+            election_frequency = 48
+            elections_allowed = no
+        }
+        set_popularities = {
+            democratic = 0
+            fascism = 0
+            communism = 0
+            neutrality = 100
+        }
+    }
+}
+give_military_access = GER
+give_military_access = AUS
+give_military_access = RUS
+give_military_access = ENG
+give_military_access = FRA
+give_military_access = EGY
+
+GER={
+    give_guarantee = COG
+}
+AUS={
+    give_guarantee = COG
+}
+RUS={
+    give_guarantee = COG
+}
+ENG={
+    give_guarantee = COG
+}
+FRA={
+    give_guarantee = COG
+}
+EGY={
+    give_guarantee = COG
+}
+
+set_cosmetic_tag = COG_mandate

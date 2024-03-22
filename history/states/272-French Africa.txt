@@ -9,7 +9,7 @@ state={
 		steel=2
 	}
 	history={
-		owner = FRA
+		owner = ENG
 		add_core_of = SEN
 		victory_points = {
 			4948 1 
