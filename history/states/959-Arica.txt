@@ -9,8 +9,8 @@ state={
 	}
 	history={
 		victory_points={ 5131 1 }
-		owner=CHL
-		add_core_of=PRU
+		owner=BOL
+		add_core_of=BOL
 		buildings={
 			infrastructure = 2
 			5131={ naval_base=1 }

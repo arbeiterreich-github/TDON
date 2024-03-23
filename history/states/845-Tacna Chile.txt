@@ -8,7 +8,7 @@ state={
 		steel=1
 	}
 	history={
-		owner=CHL
+		owner=PRU
 		add_core_of=PRU
 		buildings={
 			infrastructure = 1
