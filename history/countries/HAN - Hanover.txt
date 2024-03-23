@@ -1,5 +1,26 @@
 ﻿capital = 59
-
+ENG={
+	set_autonomy = {
+		target = HAN
+		autonomy_state = autonomy_satellite
+	}
+	HAN={
+		set_politics = {
+			ruling_party = neutrality
+			last_election = "1908.5.24"
+			election_frequency = 24 
+			elections_allowed = yes 
+		}
+		set_cosmetic_tag = FLA
+		set_popularities = {
+			fascism = 3
+			communism = 9
+			democratic = 17
+			conservative = 22
+			neutrality = 49
+		}
+	}
+}
 # Starting tech
 set_technology = {
 		#infantry
