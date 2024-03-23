@@ -1377,6 +1377,10 @@ YAQ = {
 	color = rgb { 200 150 50 }
 	color_ui = rgb { 200 150 50 }
 }
+BAB = {
+	color = rgb { 200 150 10 }
+	color_ui = rgb { 250 170 10 }
+}
 XXA = {
 	color = rgb { 125 125 125 }
 	color_ui = rgb { 125 125 125 }

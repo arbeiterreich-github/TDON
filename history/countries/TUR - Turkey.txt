@@ -7,7 +7,45 @@ add_manpower = 300000
 set_major = yes
 
 oob = "TUR_1910"
-
+set_autonomy = {
+	target = KUR
+	autonomy_state = autonomy_satellite
+}
+KUR={
+	set_cosmetic_tag = KUR_Bohtan
+	set_politics = {
+		ruling_party = neutrality
+		last_election = "1908.12.17"
+		election_frequency = 48
+		elections_allowed = yes
+	}
+	set_popularities = {
+		democratic = 0
+		fascism = 0
+		communism = 0
+		neutrality = 100
+		conservative = 0
+	}
+}
+set_autonomy = {
+	target = BAB
+	autonomy_state = autonomy_satellite
+}
+BAB={
+	set_politics = {
+		ruling_party = neutrality
+		last_election = "1908.12.17"
+		election_frequency = 48
+		elections_allowed = yes
+	}
+	set_popularities = {
+		democratic = 0
+		fascism = 0
+		communism = 0
+		neutrality = 100
+		conservative = 0
+	}
+}
 set_cosmetic_tag = TUR_KING
 # Russo-Turkish Wars
 add_opinion_modifier = {

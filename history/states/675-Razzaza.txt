@@ -2,7 +2,7 @@ state={
 	id=675
 	name="STATE_675" # Al Hajara
 	history={
-		owner=AMR
+		owner=RWL
 		add_core_of = AMR
 	}
 	provinces={ 

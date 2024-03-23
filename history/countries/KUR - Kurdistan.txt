@@ -19,12 +19,12 @@ set_politics = {
 }
 
 set_popularities = {
-	democratic = 40
-	communism = 3
-	fascism = 2
-	neutrality = 55
+	democratic = 0
+	communism = 0
+	fascism = 0
+	neutrality = 100
 }
-
+recruit_character = KUR_Emin_Bedirkhan
 recruit_character = KUR_mehmud_berzinci
 recruit_character = KUR_abdulkadir_ubeydullah
 recruit_character = KUR_sex_seid

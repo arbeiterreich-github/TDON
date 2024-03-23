@@ -1,4 +1,26 @@
 characters={
+	KUR_Emin_Bedirkhan={
+		name="Emin Ali Bedir Khan"
+		portraits={
+			civilian={
+				large="gfx/leaders/KUR/KUR_Emin_Bedirkhan.png"
+			}
+		}
+		country_leader={
+			ideology=semi_constitutional_monarchy
+		}
+	}
+	BAB_Jalal_Babban={
+		name="Jamal Babban"
+		portraits={
+			civilian={
+				large="gfx/leaders/KUR/BAB_Jalal_Babban.png"
+			}
+		}
+		country_leader={
+			ideology=semi_constitutional_monarchy
+		}
+	}
 	KUR_mehmud_berzinci={
 		name=KUR_mehmud_berzinci
 		portraits={
@@ -6,8 +28,12 @@ characters={
 				large="gfx/leaders/KUR/KUR_Mahmud_Barzanji.png"
 			}
 		}
-		country_leader={
-			ideology=autocracy
+		corps_commander = {
+			skill = 3
+			attack_skill = 3
+			defense_skill = 3
+			planning_skill = 2
+			logistics_skill = 2
 		}
 	}
 	KUR_abdulkadir_ubeydullah={
