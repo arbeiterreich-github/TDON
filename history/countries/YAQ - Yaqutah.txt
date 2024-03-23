@@ -31,7 +31,7 @@ EGY={
 		}
 	}
 }
-EGY = { set_country_flag = protectorate }
+YAQ = { set_country_flag = protectorate }
 
 1910.1.1 = {
 	set_technology = {

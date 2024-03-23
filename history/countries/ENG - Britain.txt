@@ -16,15 +16,6 @@ starting_train_buffer = 4
 set_country_flag = Scramble_for_Africa
 
 # Great Game
-add_opinion_modifier = {
-	target = RUS
-	modifier = great_game
-}
-# Naval Race
-add_opinion_modifier = {
-	target = GER
-	modifier = naval_arms_race
-}
 # Doesn't need explaining
 add_opinion_modifier = {
 	target = FRA
@@ -2047,8 +2038,30 @@ country_event = { id = ww1_developer_note.1 days = 1}
 create_faction = central_powers
 
 add_to_faction = RUS
-add_to_faction = GER
-add_to_faction = HOL
+give_guarantee = GER
+give_guarantee = HOL
 give_guarantee = CSA
 give_guarantee = TUR
 give_guarantee = POR
+add_opinion_modifier = {
+	target = GER
+	modifier = personal_friendship
+}
+GER={
+	add_opinion_modifier = {
+		target = ENG
+		modifier = personal_friendship
+	}
+}
+RUS={
+	add_opinion_modifier = {
+		target = GER
+		modifier = personal_friendship
+	}
+	GER={
+		add_opinion_modifier = {
+			target = RUS
+			modifier = personal_friendship
+		}
+	}
+}

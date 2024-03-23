@@ -31,13 +31,15 @@ QAT={
 		neutrality = 100
 	}
 }
+add_to_faction = MEX
 add_to_faction = FRA
 add_to_faction = SPR
 add_to_faction = EGY
 add_to_faction = ITA
 give_guarantee = AUS
 give_guarantee = USA
-give_guarantee = HUN
+add_to_faction = HUN
+give_guarantee = MEX
 give_guarantee = SIA # Franco-Siamese Treaty of 1904
 
 # Doesn't need explaining

@@ -117,3 +117,4 @@ recruit_character = MEX_otilio_montano
 	add_ideas = { 
 		MEX_idea_agustin_iii
 	}
+	give_military_access = FRA
