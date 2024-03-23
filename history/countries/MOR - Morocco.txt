@@ -5,9 +5,9 @@ set_war_support = 0.3
 recruit_character = MOR_mulay_abdelhafid
 recruit_character = MOR_yusef_bin_hassan
 recruit_character = MOR_muhammad_bin_yusef
-
+set_cosmetic_tag = MOR_GER
 # oob = "MOR_1910"
-FRA={
+GER={
 	set_autonomy = {
 		target = MOR
 		autonomous_state = autonomy_tgwr_informal_protectorate

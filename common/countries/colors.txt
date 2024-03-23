@@ -1373,6 +1373,10 @@ TGR = {
 	color = rgb { 163 29 29 }
 	color_ui = rgb { 163 29 29 }
 }
+YAQ = {
+	color = rgb { 200 150 50 }
+	color_ui = rgb { 200 150 50 }
+}
 XXA = {
 	color = rgb { 125 125 125 }
 	color_ui = rgb { 125 125 125 }

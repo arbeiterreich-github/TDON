@@ -1,0 +1,22 @@
+state = {
+	id = 973
+	name = "STATE_973"
+	manpower = 230980
+	state_category = large_town
+	history = {
+		victory_points = {
+			13270 8
+		}
+		owner = YAQ
+		add_core_of = YAQ
+		add_claim_by = MEX
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+		}
+	}
+	provinces = {
+		13271 13270
+	}
+	local_supplies = 1.0 
+}

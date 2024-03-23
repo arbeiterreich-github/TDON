@@ -1,0 +1,115 @@
+﻿capital = 973
+set_stability = 0.5
+set_war_support = 0.3
+
+create_country_leader = { #Succesor is nephew Abbas Halim both are related to Sultan Abbas II being 2nd cousins
+	name = "Said Halim I"
+	picture = "gfx/leaders/YAQ/YAQ_said_halim.png"
+	ideology = semi_constitutional_monarchy
+}
+# oob = "MOR_1910"
+EGY={
+	set_autonomy = {
+		target = YAQ
+		autonomous_state = autonomy_tgwr_informal_protectorate
+		freedom_level = 0.9
+	}
+	YAQ={
+		set_politics = {
+			ruling_party = neutrality
+			last_election = "1910.1.1"
+			election_frequency = 48
+			elections_allowed = no
+		}
+	
+		set_popularities = {
+			democratic = 8
+			fascism = 7
+			communism = 10
+			neutrality = 62
+			conservative = 13
+		}
+	}
+}
+EGY = { set_country_flag = protectorate }
+
+1910.1.1 = {
+	set_technology = {
+		#infantry
+		infantry_weapons = 1
+		camelry = 1
+		#support
+		tech_engineers = 1
+		#artillery
+		gw_artillery = 1
+		#navy
+		transport = 1
+	}
+
+	set_politics = {
+		ruling_party = neutrality
+		last_election = "1910.1.1"
+		election_frequency = 48
+		elections_allowed = no
+	}
+
+	set_popularities = {
+		democratic = 8
+		fascism = 7
+		communism = 10
+		neutrality = 62
+		conservative = 13
+	}
+
+	FRA = {
+		diplomatic_relation = {
+			country = YAQ
+			relation = military_access
+			active = yes
+		}
+	}
+	add_ideas = {
+		limited_conscription
+		civilian_economy
+		limited_exports
+	}
+	add_opinion_modifier = {
+		target = MEX
+		modifier = claims_on_us
+	}
+}
+
+1914.1.1 = {
+	add_political_power = 1198
+	add_command_power = 100
+
+	#generic focuses
+	complete_national_focus = state_of_the_country_army
+	complete_national_focus = modernize_equipment
+	complete_national_focus = capital_manoeuvers
+	complete_national_focus = naval_experience
+	complete_national_focus = naval_expansion
+	complete_national_focus = early_industrialization
+	complete_national_focus = new_roads
+	complete_national_focus = develop_capital
+	complete_national_focus = capital_country_arsenal
+	complete_national_focus = open_the_political_sphere
+	
+	remove_ideas = { FRA_idea_moroccan_intervention }
+
+	set_politics = {
+		ruling_party = neutrality
+		elections_allowed = no
+	}
+	set_popularities = {
+		neutrality = 100
+	}
+	set_cosmetic_tag = MOR_FRA
+	MOR_mulay_abdelhafid = {
+		remove_country_leader_role = {
+			ideology = autocracy
+		}
+	}
+	promote_character = MOR_yusef_bin_hassan
+
+}

@@ -3119,6 +3119,13 @@
  GAN_communism:0 "Gansu Soviet Zone"
  GAN_communism_DEF:0 "the Gansu Soviet Zone"
  
+ YAQ_communism:0 "Al Yaqutah Republic"
+ YAQ_communism_DEF:0 "Al Yaqutah Republic"
+ YAQ_socialist:0 "Al Yaqutah Republic"
+ YAQ_socialist_DEF:0 "Al Yaqutah Republic"
+ YAQ:0 "Emirate of Al Yaqutah"
+ YAQ_DEF:0 "Emirate of Al Yaqutah"
+ YAQ_ADJ:0 "Yaquti"
  ### Debug Tag ###
  XXA:0 "Debug Tag"
  XXA_ADJ:0 "Debug"

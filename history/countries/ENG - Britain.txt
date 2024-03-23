@@ -2047,7 +2047,7 @@ country_event = { id = ww1_developer_note.1 days = 1}
 create_faction = central_powers
 
 add_to_faction = RUS
-add_to_faction = AUS
+add_to_faction = GER
 add_to_faction = HOL
 give_guarantee = CSA
 give_guarantee = TUR

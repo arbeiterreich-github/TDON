@@ -291,6 +291,7 @@ CUB = "countries/LatAm.txt"
 DOM = "countries/LatAm.txt"
 BLZ = "countries/LatAm.txt"
 PUE = "countries/LatAm.txt"
+YAQ = "countries/MidEast.txt"
 RGS = "countries/LatAm.txt"
 
 SPR = "countries/LatAm.txt"
