@@ -98,26 +98,9 @@ if = {
 
 	
 	add_ideas = {
-		FRA_memories_of_1870
-		FRA_artisanal_industry
-		FRA_disjointed_government
 		limited_conscription
-		FRA_armand_fallieres
+		
 	}
-	
-	if = {
-		limit = {
-			date < 1914.1.1
-		}	
-		declare_war_on = {
-			target = CHA
-			type = annex_everything
-		}		
-		set_province_controller = 4978
-		set_province_controller = 3181
-		activate_mission = FRA_wadai_war_timer
-		add_ideas = FRA_wadai_war
-	}	
 
 	add_timed_idea = {
 		idea = FRA_ww1_agricultural_sector_strike

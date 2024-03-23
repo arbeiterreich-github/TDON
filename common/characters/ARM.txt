@@ -48,6 +48,10 @@ characters={
 			}		
 		}
 		country_leader={
+			ideology=conservatism
+			traits={ nationalist_symbol }
+		}
+		country_leader={
 			ideology=revolutionary_nationalism
 			traits={ nationalist_symbol }
 		}

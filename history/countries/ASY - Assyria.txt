@@ -7,7 +7,7 @@ recruit_character = ASY_shimun_xix_benyamin
 recruit_character = ASY_agha_petros
 recruit_character = ASY_dawid_mar_shimun
 
-1910.1.1 = {
+
     set_politics = {
         ruling_party = neutrality
         last_election = "1910.1.1"
@@ -26,5 +26,21 @@ recruit_character = ASY_dawid_mar_shimun
         infantry_weapons = 1
     }
     
-    add_ideas = { isolation limited_exports ASY_idea_save_the_nation }
-}
+    add_ideas = { isolation limited_exports }
+
+    RUS={
+        set_autonomy = {
+            target = ASY
+            autonomy_state = autonomy_satellite
+        }
+    }
+    add_opinion_modifier = {
+        target = KUR
+        modifier = historical_rival
+    }
+    KUR={
+        add_opinion_modifier = {
+            target = ASY
+            modifier = historical_rival
+        }
+    }

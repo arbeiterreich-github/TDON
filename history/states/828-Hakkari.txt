@@ -5,7 +5,7 @@ state={
 		victory_points={ 
 			12476 1 
 		}
-		owner=KUR
+		owner=ASY
 		add_core_of=KUR
 		add_core_of=ASY
 		buildings={

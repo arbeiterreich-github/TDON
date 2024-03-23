@@ -3,17 +3,8 @@ state={
 	name="STATE_909"
 
 	history={
-		owner = CER
-		add_core_of = CER
+		owner = RUS
 		add_core_of = QIN
-		buildings = {
-			infrastructure = 3
-		}
-		victory_points = { 12992 1 }
-		1912.2.12 = {
-			add_core_of = CHI
-			remove_core_of = QIN
-		}
 	}
 
 	provinces={

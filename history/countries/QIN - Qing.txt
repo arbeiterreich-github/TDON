@@ -120,10 +120,6 @@ recruit_character = QIN_yunnan_aviation_academy
 	add_ideas = {
 		QIN_idea_xuantong_young
 		QIN_idea_low_legitimacy
-		QIN_idea_purchase_restriction
-		QIN_idea_boxer_protocol
-		QIN_idea_beiyang_army
-		QIN_idea_tongmenghui
 		isolation
 		limited_exports
 		# unequal_treaties
