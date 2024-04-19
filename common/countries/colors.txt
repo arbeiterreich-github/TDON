@@ -1381,6 +1381,14 @@ BAB = {
 	color = rgb { 200 150 10 }
 	color_ui = rgb { 250 170 10 }
 }
+TEX = {
+	color = rgb { 0 35 95 }
+	color_ui = rgb { 0 35 95 }
+}
+CAL = {
+	color = rgb { 190 140 95 }
+	color_ui = rgb { 190 140 95 }
+}
 XXA = {
 	color = rgb { 125 125 125 }
 	color_ui = rgb { 125 125 125 }

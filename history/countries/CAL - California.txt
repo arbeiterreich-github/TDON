@@ -1,0 +1,62 @@
+﻿capital = 378
+
+set_research_slots = 2
+set_stability = 0.69
+set_war_support = 0.05
+set_convoys = 100
+	oob = "CAL_1910"
+	set_technology = {
+		#infantry
+		infantry_weapons = 1
+		infantry_weapons1 = 1
+		support_weapons = 1
+		motorised_infantry = 1
+		#bicycle_infantry = 1
+		
+		#support
+		tech_support = 1
+		tech_engineers = 1
+		tech_recon = 1
+		
+		#armor
+		early_armored_car = 1
+		
+		#artillery
+		gw_artillery = 1
+		
+		#doctrine
+		
+		#air
+		scout_plane = 1
+		
+		#engineering
+		electrical_engineering = 1
+		radio = 1
+		analytical_engine = 1
+		mechanical_engineering = 1
+		aircraft_engine = 1
+		generator_battery = 1
+		basic_train = 1
+        
+	}
+	
+	set_politics = {
+		ruling_party = democratic
+		last_election = "1908.11.5"
+		election_frequency = 48
+		elections_allowed = yes
+	}
+	set_popularities = {
+		democratic = 50
+		conservative = 44
+		fascism = 0
+		communism = 12
+		neutrality = 4
+	}
+
+	add_ideas = {
+		#Laws
+		undisturbed_isolation 
+		disarmed_nation 
+		free_trade 
+	}

@@ -10,8 +10,8 @@ state={
 		tungsten=31
 	}
 	history={
-		owner=USA
-		add_core_of=USA
+		owner=CAL
+		add_core_of=CAL
 		buildings={
 			infrastructure = 2
 		}

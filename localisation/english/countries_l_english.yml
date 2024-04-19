@@ -3130,7 +3130,17 @@
  YAQ:0 "Emirate of Al Yaqutah"
  YAQ_DEF:0 "Emirate of Al Yaqutah"
  YAQ_ADJ:0 "Yaquti"
+
+ CAL: "California"
+ CAL_DEF: "California"
+ CAL_ADJ: "Californian"
+
+ TEX: "Texas"
+ TEX_DEF: "Texas"
+ TEX_ADL: "Texan"
  ### Debug Tag ###
  XXA:0 "Debug Tag"
  XXA_ADJ:0 "Debug"
  XXA_DEF:0 "the Debug Tag"
+
+ 

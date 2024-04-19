@@ -8,8 +8,8 @@ state={
 		oil=10
 	}
 	history={
-		owner=MEX
-		add_core_of=MEX
+		owner=CAL
+		add_core_of=CAL
 		buildings={
 			infrastructure = 2
 			1892={ naval_base=2 }

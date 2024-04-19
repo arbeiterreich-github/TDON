@@ -1,0 +1,19 @@
+state = {
+	id = 975
+	name = "STATE_975"
+	manpower = 119800
+	state_category = rural
+	history = {
+		owner = MEX
+		add_core_of = MEX
+		add_claim_by = TEX
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+		}
+	}
+	provinces = {
+		1954 5038 10740 10894
+	}
+	local_supplies = 1.0 
+}
